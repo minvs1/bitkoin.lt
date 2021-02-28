@@ -27,8 +27,15 @@ export default function Home(): React.ReactElement {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Current Bitcoin Price - bitkoin.lt</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68062935-4"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-68062935-4'); `,
+          }}
+        />
       </Head>
 
       <Center height="100%">
