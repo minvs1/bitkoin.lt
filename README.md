@@ -1,3 +1,3 @@
 # bitkoin.lt
 
-https://bitkoin.lt/
+Application for https://bitkoin.lt
